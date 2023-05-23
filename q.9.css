@@ -1,0 +1,45 @@
+* {
+    padding: 3%;
+    gap: 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+.background{    
+    display: flex;
+    background-color: skyblue;
+    flex-direction: column;
+}
+
+.header{   
+    margin-top: 1rem;
+    padding: 2rem;
+    font-size: 20px;
+    background-color: #07946E;
+}
+
+.section{   
+    display: flex;
+}
+
+.aside{ 
+    background-color: #A4D0A4;
+    flex: 0.5;
+    height: 210px;
+}
+
+.article{
+    background-color: orange;
+    flex: 3;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.img {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+  }
